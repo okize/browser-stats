@@ -1,0 +1,19 @@
+{
+  "name": "browser-stats",
+  "version": "0.0.0",
+  "description": "browser-stats =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okize/browser-stats"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/okize/browser-stats/issues"
+  },
+  "homepage": "https://github.com/okize/browser-stats"
+}
