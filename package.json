@@ -1,19 +1,40 @@
 {
   "name": "browser-stats",
-  "version": "0.0.0",
-  "description": "browser-stats =============",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "CLI tool that displays browser statistics for your site from your Google Analytics data",
+  "main": "./bin/iconr.js",
+  "bin": {
+    "iconr": "./bin/iconr.js"
+  },
+  "keywords": [
+    "browser",
+    "stats",
+    "market",
+    "share",
+    "google analytics"
+  ],
+  "dependencies": {
+    "underscore": "1.5.x"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/okize/browser-stats"
+    "url": "https://github.com/okize/browser-stats.git"
   },
-  "author": "",
-  "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/okize/browser-stats/issues"
   },
-  "homepage": "https://github.com/okize/browser-stats"
+  "homepage": "https://github.com/okize/browser-stats",
+  "author": {
+    "name": "Morgan Wigmanich",
+    "email": "okize123@gmail.com",
+    "url": "https://github.com/okize"
+  },
+  "license": "MIT"
 }
